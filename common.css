@@ -1,0 +1,106 @@
+body, ul, li, p, h1, h2, h3, h4, h5, h6, form{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background: url(image/background.png);
+    background-size: cover;
+    margin: 1em auto;
+    padding: 0;
+}
+
+#nav, #main{
+    vertical-align: top;
+    
+}
+
+.fix{
+    min-height: 1%;
+    display: block;
+}
+
+.fix::after{
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#container {
+    margin: 0 auto;
+    text-align: center;
+    width: 768px;
+}
+
+
+
+#colls {
+    border: 3px solid  #048;
+    width: 768px;
+    background: url(image/pl_menu.png) 0 repeat-y;
+    padding-bottom: 20px;
+}
+
+#nav{
+    width: 180px;
+    float: left;
+}
+
+#nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+
+}
+
+#nav ul li{
+    margin-left: -40px;
+}
+
+#nav ul li:hover{
+    filter: brightness(130%);
+}
+
+#nav ul li:active{
+    filter: brightness(50%);
+}
+
+#main{
+    color: white;
+    text-shadow: -3px 3px 3px black ;
+    text-align: left;
+    padding-left: 285px;
+    padding-top: 30px;
+}
+
+#main h1{
+    background-color: #048;
+    width: 340px;
+    padding: 0.4em;
+}
+
+#main p{
+    padding-left: 10px;
+}
+
+#main a{
+        text-decoration: underline;
+        color:khaki;
+}
+
+#main a:hover{
+    color:blanchedalmond;
+}
+
+iframe{
+    border: none;
+    overflow: auto;
+}
