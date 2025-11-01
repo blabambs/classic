@@ -10,6 +10,10 @@ body{
     padding: 0;
 }
 
+#main p img{
+    border-style: solid 2px;
+}
+
 #nav, #main{
     vertical-align: top;
     
@@ -41,6 +45,7 @@ body{
     width: 768px;
     background: url(image/pl_menu.png) 0 repeat-y;
     padding-bottom: 20px;
+    height: 540px;
 }
 
 #nav{
