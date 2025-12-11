@@ -14,3 +14,12 @@ table td, th{
    border-color: #4C58FF;
    border-width: 2px;
 }
+
+a{
+    text-decoration: underline;
+    color: khaki;
+}
+
+a:hover{
+    color: blanchedalmond;
+}
